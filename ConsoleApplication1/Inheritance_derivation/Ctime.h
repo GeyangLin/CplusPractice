@@ -1,13 +1,13 @@
-#include<string>
-using namespace std;
 
 #ifndef CTIME_H
 #define CTIME_H
 
+#include<string>
+using namespace std;
 
 class Ctime {
 public:
-	const int const_test = 0;
+	const int const_test;
 	static int count;
 	int temp;
 	Ctime();
